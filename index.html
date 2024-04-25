@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H1 create using JS</title>
+  <link rel="stylesheet" href="index.css">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  const arr = [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9]
+
+    const arrused = arr.filter((res, index) => {
+      //console.log(res);
+      
+      console.log(index);
+      
+      return arr.indexOf(res) !== index;
+    })
+
+    console.log(arrused)
+</script>
+<script src="App.js">
+  // const demo = React.createElement("h1", { id: "heading" }, "Hello Aman")
+  // // ReactDOM.render(demo, document.getElementById("root"));
+  // const demo1 = document.getElementById("root");
+  // const appendsusd = ReactDOM.createRoot(demo1);
+  //appendsusd.render(demo);
+  
+  // const demo = React.createElement("div", { id: "MainParent" },
+  //   React.createElement("div", { id: "Parent1" },
+  //     React.createElement("h1", { id: "parent h1" }, "this content is patent H1"),
+  //     React.createElement("h2", { id: "Parent h2" }, "this content is h2")),
+  //   React.createElement("div", { id: "Parent2" },
+  //     React.createElement("h1", { id: "parent h1" }, "this content is patent H1"),
+  //     React.createElement("h2", { style: { color: "hotpink", border: "2px solid black", padding: "10px", borderRadius: "40px", textAlign: "center" }, className: "Parent h2" }, "this content is h2"))
+  // );
+  
+  
+  // const demo1 = document.getElementById("root");
+  // const append = ReactDOM.createRoot(demo1);
+  // append.render(demo);
+</script>
+
+
+</html>
