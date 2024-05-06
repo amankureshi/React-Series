@@ -1,0 +1,26 @@
+{
+  "name": "react-aman",
+  "version": "1.0.0",
+  "description": "this is react Aman",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amankureshi/React-Series.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amankureshi/React-Series/issues"
+  },
+  "homepage": "https://github.com/amankureshi/React-Series#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
