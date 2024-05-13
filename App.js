@@ -1,3 +1,7 @@
+
+//import React from 'react';
+//import ReactDOM from "react-dom";
+
 const demo = React.createElement("div", { id: "MainParent" },
     React.createElement("div", { className: "Parent1" },
       React.createElement("h1", { id: "parent h1" }, "this content is patent H1"),
